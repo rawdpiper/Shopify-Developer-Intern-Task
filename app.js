@@ -6,10 +6,13 @@ const listAllRoute = require('./routes/listAll.route')
 const editItemRoute = require('./routes/editItem.route')
 const deleteItemRoute = require('./routes/deleteItem.route')
 const createShipmentRoute = require('./routes/createShipment.route')
+const cors = require('cors')
 
 const app = express()
 
 app.use(express.json())
+
+app.use(cors())
 
 app.use('/api', createItemRoute)
 app.use('/api', listAllRoute)
