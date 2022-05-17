@@ -20,3 +20,8 @@ A postman documentation on how to make requests to the backend API; [https://doc
 ## Production Version
 
 The app is deployed on [https://replit.com/@rawdpiper/Shopify-Developer-Intern-Task](https://replit.com/@rawdpiper/Shopify-Developer-Intern-Task)
+
+
+## Client App
+
+Client app is hosted on [https://github.com/rawdpiper/inventory-app-client](https://github.com/rawdpiper/inventory-app-client)
